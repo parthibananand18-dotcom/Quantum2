@@ -23,6 +23,9 @@ int main()
     case '/':
         printf("Quotient:%d", num1 / num2);
         break;
+        case'%':
+        printf("Reminder:%d",num1%num2);
+        break;
     default:
         printf("Invalid operator");
     }
