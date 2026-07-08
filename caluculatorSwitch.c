@@ -23,8 +23,13 @@ int main()
     case '/':
         printf("Quotient:%d", num1 / num2);
         break;
+    case '%':
+        printf("Remainder:%d", num1 % num2);
+        break;
     default:
         printf("Invalid operator");
     }
     return 0;
 }
+
+
